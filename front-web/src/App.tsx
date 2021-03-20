@@ -1,14 +1,9 @@
 import './App.css';
-import Home from './Home';
-import NavBar from './NavBar';
+import Routes from './routes';
 
 function App() {
   return (
-    <div>
-      <NavBar />
-      <Home />
-    </div>
-
+      <Routes />
   );
 }
 
